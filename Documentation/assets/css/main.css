@@ -1,0 +1,220 @@
+/*
+CircularStd @font-face kit
+*/
+@font-face {
+  font-family: "CircularStd";
+  src: url("../fonts/text-font/CircularStd-Black.eot");
+  src: url("../fonts/text-font/CircularStd-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-Black.woff") format("woff"), url("../fonts/text-font/CircularStd-Black.ttf") format("truetype"), url("../fonts/text-font/CircularStd-Black.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("../fonts/text-font/CircularStd-BlackItalic.eot");
+  src: url("../fonts/text-font/CircularStd-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-BlackItalic.woff") format("woff"), url("../fonts/text-font/CircularStd-BlackItalic.ttf") format("truetype"), url("../fonts/text-font/CircularStd-BlackItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("../fonts/text-font/CircularStd-Bold.eot");
+  src: url("../fonts/text-font/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-Bold.woff") format("woff"), url("../fonts/text-font/CircularStd-Bold.ttf") format("truetype"), url("../fonts/text-font/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("../fonts/text-font/CircularStd-BoldItalic.eot");
+  src: url("../fonts/text-font/CircularStd-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-BoldItalic.woff") format("woff"), url("../fonts/text-font/CircularStd-BoldItalic.ttf") format("truetype"), url("../fonts/text-font/CircularStd-BoldItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("../fonts/text-font/CircularStd-Medium.eot");
+  src: url("../fonts/text-font/CircularStd-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-Medium.woff") format("woff"), url("../fonts/text-font/CircularStd-Medium.ttf") format("truetype"), url("../fonts/text-font/CircularStd-Medium.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("../fonts/text-font/CircularStd-MediumItalic.eot");
+  src: url("../fonts/text-font/CircularStd-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-MediumItalic.woff") format("woff"), url("../fonts/text-font/CircularStd-MediumItalic.ttf") format("truetype"), url("../fonts/text-font/CircularStd-MediumItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("../fonts/text-font/CircularStd-Book.eot");
+  src: url("../fonts/text-font/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-Book.woff") format("woff"), url("../fonts/text-font/CircularStd-Book.ttf") format("truetype"), url("../fonts/text-font/CircularStd-Book.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("../fonts/text-font/CircularStd-BookItalic.eot");
+  src: url("../fonts/text-font/CircularStd-BookItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-BookItalic.woff") format("woff"), url("../fonts/text-font/CircularStd-BookItalic.ttf") format("truetype"), url("../fonts/text-font/CircularStd-BookItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  padding-top: 3rem;
+  font-family: "CircularStd", sans-serif;
+  font-size: 16px;
+  font-color: #0B2238;
+}
+@media (max-width: 767px) {
+  body {
+    padding-top: 1.5rem;
+  }
+}
+
+.header_nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(11, 34, 56, 0.08);
+}
+.header_nav .navbar {
+  height: 75px;
+}
+.header_nav .navbar .navbar-brand {
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+}
+.header_nav .navbar .navbar-brand .letter {
+  opacity: 0;
+  position: absolute;
+  right: -60px;
+}
+.header_nav .navbar .navbar-brand:hover .doot {
+  opacity: 0;
+}
+.header_nav .navbar .navbar-brand:hover .letter {
+  opacity: 1;
+}
+.header_nav .navbar .navbar-nav .nav-item .nav-link {
+  padding: 0 1rem;
+}
+.header_nav .navbar .btn_purchase {
+  padding: .6rem 1.5rem;
+  border-radius: 12px;
+  background-color: #165DF5;
+  color: #ffffff;
+}
+
+.contet_doc .item_nav_side {
+  background-color: #F7F8FA;
+  padding: 2rem 3rem 2rem 2rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 320px;
+  overflow: auto;
+  height: 100vh;
+}
+@media (max-width: 767px) {
+  .contet_doc .item_nav_side {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+}
+.contet_doc .item_nav_side .nav-pills {
+  text-align: left;
+}
+.contet_doc .item_nav_side .nav-pills .nav-link {
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 12px;
+  padding: .95rem 1.2rem;
+  color: #0B2238;
+  margin-bottom: .2rem;
+}
+.contet_doc .item_nav_side .nav-pills .nav-link.active {
+  background-color: #165DF5;
+  color: #ffffff;
+}
+.contet_doc .item_nav_side .nav-pills .nav-link .tio {
+  vertical-align: middle;
+  margin-right: .3rem;
+  font-size: 18px;
+}
+.contet_doc .content_structure .item_nav .title_cont {
+  border-bottom: 1px solid rgba(11, 34, 56, 0.08);
+  margin-bottom: 1rem;
+}
+.contet_doc .content_structure .item_nav h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.contet_doc .content_structure .item_nav p {
+  font-size: 16px;
+  color: #6C7A87;
+}
+.contet_doc .content_structure .item_nav ol li {
+  list-style: circle;
+}
+
+.brand_top {
+  padding: 2rem;
+  padding-top: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand_top a {
+  color: #0B2238;
+  font-size: 20px;
+  font-weight: 500;
+}
+.brand_top a span {
+  display: inline-flex;
+  margin: auto;
+  vertical-align: sub;
+}
+.brand_top a:hover {
+  text-decoration: none;
+}
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background: #171827;
+  border-radius: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #6C7A87;
+}
+
+xmp {
+  overflow: auto;
+  width: 100%;
+}
+
+.c-blue {
+  color: #165DF5 !important;
+}
+
+body, .header_nav .navbar .navbar-brand span, .header_nav .navbar .navbar-nav .nav-item .nav-link {
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -o-transition: all .4s;
+  -ms-transition: all .4s;
+}
+
+/*# sourceMappingURL=main.css.map */
