@@ -1492,17 +1492,17 @@
               <!--p>Any question or remarks? Just write us a message!</p-->
             </div>
             <div class="form_cc_four" style="padding: 0; box-shadow: none !important;">
-              <form action="" class="row">
+              <form action="" class="row" data-netlify="true">
                 <div class="col-md-6">
                   <div class="form-group">
                     <label>Email address</label>
-                    <input type="email" class="form-control" placeholder="ex. john@mail.com">
+                    <input type="email" name="Email" class="form-control" placeholder="ex. john@mail.com">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label>Full Name</label>
-                    <input type="text" class="form-control" placeholder="ex. John Doe">
+                    <input type="text" name="ClientName" class="form-control" placeholder="ex. John Doe">
                   </div>
                 </div>
                 <!--div class="col-md-6">
@@ -1770,14 +1770,14 @@
                       <option>Purchase</option>
                       <option>Support</option>
                       <option>Technique</option>
-                      <option>Service Request</option>
+                      <option>Service Request Lolz</option>
                     </select>
                   </div>
                 </div-->
                 <div class="col-md-12">
                   <div class="form-group">
                     <label>Message</label>
-                    <textarea class="form-control" rows="2"
+                    <textarea class="form-control" rows="2" name="ClientProject"
                       placeholder="Tell us more about your project, needs, and timeline."></textarea>
                   </div>
                 </div>
@@ -1785,19 +1785,22 @@
                 <div class="col-12 d-md-flex justify-content-between margin-t-2">
                   <div class="item_upload mb-3 mb-md-0">
                     <div class="upload__file">
-                      <input type="file">
-                      <button type="button" class="btn btn_md_primary">
+                      <input type="file" name="File">
+                      <button type="button" name="FileButtton" class="btn btn_md_primary">
                         <i class="tio attachment"></i>
                         Attach File
                       </button>
                     </div>
                     <span class="my-auto">Max. size: 12 MB</span>
                   </div>
-                  <a href="" class="btn btn_md_primary bg-blue rounded-8 c-white h-fit-content">
+                  <button type="submit" name="submit" class="btn btn_md_primary bg-blue rounded-8 c-white h-fit-content">
                     Submit
-                  </a>
+                  </button>
+                  <!--testt-->
                 </div>
+                <!--testt-->
               </form>
+              <!--testtdddddd-->
             </div>
           </div>
         </div>
